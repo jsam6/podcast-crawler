@@ -2,6 +2,10 @@
 ### Podcast
  - Darknet Diaries
 
+#### Requirements
+- Python3
+- MySQL
+
 #### Setup and run
 
 ```
