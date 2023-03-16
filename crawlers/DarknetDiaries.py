@@ -14,7 +14,7 @@ import json
 def startScrap(url):
     filePodcastName = "Darknet.Diaries"
 
-    folderName = Path(__file__).parent.parent.__str__() + "\\" + filePodcastName 
+    folderName = Path(__file__).parent.__str__() + "\\output\\" + filePodcastName 
     print("Initial Folder Name: " + folderName)
     if os.path.exists(folderName):
         print("Folder found!")
@@ -53,7 +53,7 @@ def startScrap(url):
         formatDate = datetime.strptime(dateUplaoded, '%d %B %Y')
         date = str(formatDate.day) +"."+ str(formatDate.month) +"."+ str(formatDate.year)
 
-        folderName = Path(__file__).parent.parent.__str__() + "\\" + filePodcastName + "\\" + episodeNumber + "-" + date
+        folderName = Path(__file__).parent.__str__() + "\\output\\" + filePodcastName + "\\" + episodeNumber + "-" + date
 
         # make folder name eg. B:\workspace\mcflurry\podcast-tracker\Darknet.Diaries\131-27.12.2022\
         print("Folder Name: " + folderName)
