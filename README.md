@@ -5,8 +5,9 @@ pip install Flask
 ./venv/Scripts/activate (cmd)
 . venv/Scripts/activate (bash)
 
-flask --app index.py  --debug run
+```
 
-pip freeze
-
+## start crawler
+```
+python index.py
 ```
