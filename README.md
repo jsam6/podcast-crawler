@@ -1,4 +1,9 @@
 ## <u>This is a podcast crawler</u>
+
+### Objective
+Crawl and save podcast .mp3 and details.
+Currently only supports Darknet Diaries podcast.
+
 ### Podcast
  - Darknet Diaries
 
